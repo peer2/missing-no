@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  padding-top: 20px;
   pointer-events: none;
+  margin-bottom: -50px
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.typewriter {
+  position:fixed;
+    bottom:30px;
+    left:42%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+.behind-img {
+  display: none;
+}
+
+#canvas2 {
+  display: none;
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -250px;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
